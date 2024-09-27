@@ -25,6 +25,10 @@ will interact with this program, which receives, interprets, then acts upon comm
 are handled by this program, with other, DevDogs-critical functionalities like contribution management relegated to the DevDogs Platform program so
 changes are reflected across both end-user interfaces (the website and Discord).
 
+### Tech Stack
+RoboDog will use Python for Discord-exclusive needs, relying on the JS-based DevDogs Platform through HTTP requests for the critical functions described above.
+The DevDogs Platform uses a PostgreSQL, Supabase database to store contribution, event, and member data.
+
 ### Contributing
 This repository, in the future, will be managed by a titled Discord developer unless the role is integrated with the Lead Web Developer under a title change 
 (Lead Web Developer -> DevDogs Platform Developer). This repository, after setup, can be contributed to by general body members of DevDogs as another 
